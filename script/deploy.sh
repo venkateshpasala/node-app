@@ -5,7 +5,7 @@ ssh ezderman@139.59.21.158 <<EOF
  cd ~/node-app
  git pull
  npm install — production
- node index.js
+ pm2 start index.js
  pm2 restart all
  exit
 EOF
