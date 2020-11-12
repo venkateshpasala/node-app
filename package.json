@@ -1,6 +1,5 @@
 {
    "scripts": {
-      "test": "mocha",
       "start": "node index.js"
    },
    "name": "node-app",
@@ -9,8 +8,6 @@
    "private": true,
    "dependencies": {},
    "devDependencies": {
-      "express": "^4.17.1",
-      "mocha": "^8.2.1",
-      "supertest": "^6.0.1"
+      "express": "^4.17.1"
    }
 }
