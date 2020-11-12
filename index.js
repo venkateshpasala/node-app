@@ -3,7 +3,7 @@ let express = require("express");
 let app = express();
 
 app.get("/", function (req, res) {
- res.send("Welcome to Jenkins CI and CD");
+ res.send("Welcome to Nodejs with Jenkins CI and CD");
 });
 
 //listen to port 3000 by default
